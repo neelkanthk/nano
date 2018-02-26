@@ -1,0 +1,21 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/neelkanthk/nano.git"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^3.4",
+        "symfony/routing": "^3.4",
+        "symfony/http-kernel": "^3.4",
+        "neelkanthk/nano": "dev-master",
+        "symfony/event-dispatcher": "^3.4",
+        "league/plates": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "neelkanthk/nano",
+    "type": "library",
+    "description": "The leanest PHP framework to get you started",
+    "keywords": [],
+    "homepage": "https://github.com/neelkanthk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neelkanth Kaushik",
+            "email": "neelkanthkaushik2014@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^3.4",
+        "symfony/routing": "^3.4",
+        "symfony/http-kernel": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nano\\": "src/"
+        }
+    }
+}
+
+
